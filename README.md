@@ -28,9 +28,12 @@ We will use Hamming Distances between different subtypes in order to classify th
 - whenever finished making changes to the repo, run *git add -A* and *git commit -m "some message" 
 - run *git pull* then run *git push origin name_of_branch*
 - to merge your branch, use pull requests on the github website, with the base branch being master and compare branch being your branch
+- profit
+
 ### Naming Data
 - name data files as "hiv" + subtype in capitals + "-" + gene name.filetype
 - *hivB-gag.csv*
+
 ### Converting Data
 - run *python conversion.py* followed by the fasta file name and location, as well as the csv file name and location to be created
 - *python conversion.py data/hivB-gag.fasta data/hivB-gag.csv*
