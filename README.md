@@ -21,6 +21,16 @@ We will use Hamming Distances between different subtypes in order to classify th
 - Implementing classifier to discern between multiple subtypes - 1/25
 - Create neural net to improve accuracy - 12/10
 
-### Convention for converting data
+## Convention for data
+### Contributing to the Repo
+- clone this repository on your local machine (*git clone https://github.com/pimpshark/HIV-Classifier*)
+- make your own branch in this new local repo (*git checkout -b name_of_branch*)
+- whenever finished making changes to the repo, run *git add -A* and *git commit -m "some message" 
+- run *git pull* then run *git push origin name_of_branch*
+- to merge your branch, use pull requests on the github website, with the base branch being master and compare branch being your branch
+### Naming Data
+- name data files as "hiv" + subtype in capitals + "-" + gene name.filetype
+- *hivB-gag.csv*
+### Converting Data
 - run *python conversion.py* followed by the fasta file name and location, as well as the csv file name and location to be created
 - *python conversion.py data/hivB-gag.fasta data/hivB-gag.csv*
