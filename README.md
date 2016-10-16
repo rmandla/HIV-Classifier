@@ -13,13 +13,13 @@ Our primary aim is to predict the subtype of a HIV virus based on its genome alo
 We will use Hamming Distances between different subtypes in order to classify them. 
 
 ## Timeline
--*Acquiring Data - 10/15*
--*Converting Data into readable files - 10/20*
--Determining features and algorithm to use - 10/30
--Implementing classifier to discern between two different subtypes - 11/8
--Implementing classifier to predict country of origin - 11/14
--Implementing classifier to discern between multiple subtypes - 1/25
--Create neural net to improve accuracy - 12/10
+- *Acquiring Data - 10/15*
+- *Converting Data into readable files - 10/20*
+- Determining features and algorithm to use - 10/30
+- Implementing classifier to discern between two different subtypes - 11/8
+- Implementing classifier to predict country of origin - 11/14
+- Implementing classifier to discern between multiple subtypes - 1/25
+- Create neural net to improve accuracy - 12/10
 
 ### Convention for converting data
 - run *python conversion.py* followed by the fasta file name and location, as well as the csv file name and location to be created
