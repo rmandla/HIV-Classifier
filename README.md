@@ -25,7 +25,7 @@ We will use Hamming Distances between different subtypes in order to classify th
 ### Contributing to the Repo
 - clone this repository on your local machine (*git clone https://github.com/pimpshark/HIV-Classifier*)
 - make your own branch in this new local repo (*git checkout -b name_of_branch*)
-- whenever finished making changes to the repo, run *git add -A* and *git commit -m "some message" 
+- whenever finished making changes to the repo, run *git add -A* and *git commit -m "some message"* 
 - run *git pull* then run *git push origin name_of_branch*
 - to merge your branch, use pull requests on the github website, with the base branch being master and compare branch being your branch
 - profit
