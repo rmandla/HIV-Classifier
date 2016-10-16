@@ -21,7 +21,7 @@ We will use Hamming Distances between different subtypes in order to classify th
 - Implementing classifier to discern between multiple subtypes - 1/25
 - Create neural net to improve accuracy - 12/10
 
-## Convention for data
+## Some Convention
 ### Contributing to the Repo
 - clone this repository on your local machine (*git clone https://github.com/pimpshark/HIV-Classifier*)
 - make your own branch in this new local repo (*git checkout -b name_of_branch*)
