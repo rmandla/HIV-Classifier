@@ -37,3 +37,5 @@ We will use Hamming Distances between different subtypes in order to classify th
 ### Converting Data
 - run *python conversion.py* followed by the fasta file name and location, as well as the csv file name and location to be created
 - *python conversion.py data/hivB-gag.fasta data/hivB-gag.csv*
+
+### Note that we cannot upload our hamming distance data because of file size limitations on github
